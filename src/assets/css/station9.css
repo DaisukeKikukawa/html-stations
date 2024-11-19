@@ -1,0 +1,76 @@
+header {
+  background-color: #ffffff;
+  height: 30px;
+}
+
+body {
+  background-color: #c4c4c4;
+}
+
+footer {
+  background-color: #ffffff;
+  height: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 1px;
+  width: 288px;
+  height: 300px;
+}
+
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+
+.card__img-top {
+  width: 288px;
+  height: 182px;
+  margin-bottom: 1px;
+}
+
+/* 既存のCSSはそのまま保持 */
+
+/* PC (1200px以上) */
+@media screen and (min-width: 1200px) {
+  /* デフォルトのスタイルをそのまま使用 */
+}
+
+/* タブレット (768px-1199px) */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .card__title {
+    font-size: 12px;
+  }
+
+  .card__description {
+    font-size: 10px;
+  }
+}
+
+/* スマートフォン (767px以下) */
+@media screen and (max-width: 767px) {
+  .card__title {
+    font-size: 11px;
+  }
+
+  .card__description {
+    display: none;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}
