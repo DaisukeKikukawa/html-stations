@@ -2,6 +2,7 @@
 
 ## GitHub Codespaces を使用する方（プログラミング初めての方はこちらを推奨）
 
+
 Chrome、Safari、Edge などのブラウザをご用意ください。（※ Firefox ではうまく動作しない場合があります。）
 詳しくは [GitHub Codespaces](https://docs.google.com/presentation/d/1IuuQIw5ZWFI7Nwcg1AcZVom2JbzdMR5st9LpScI9xug/edit#slide=id.g276d14e2f07_0_43) の資料をご確認ください。
 
